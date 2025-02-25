@@ -1,0 +1,208 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Tracker Box */
+  .tracker-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+  }
+  
+  /* Titles */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007acc;
+  }
+  
+  .sub-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .input-field,
+  select {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  .btn {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+  }
+  
+  /* Add Button */
+  .add-btn {
+    background: black;
+    color: white;
+  }
+  
+  .add-btn:hover {
+    background: #333;
+  }
+  
+  /* Activity Table */
+  .activity-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  .activity-table th, .activity-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .activity-table th {
+    background: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* Blue Themed Table */
+  .activity-table tbody tr:nth-child(odd) {
+    background: #e7f1ff;
+  }
+  
+  .activity-table tbody tr:nth-child(even) {
+    background: #d0e4ff;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .delete-btn:hover {
+    background: darkred;
+  }
+
+  /* Customizing Button */
+  .customize-btn {
+    background: #ffc107;
+    color: white;
+  }
+  
+  .customize-btn:hover {
+    background: #e0a800;
+  }
+  
+  /* Training Type Guide Button */
+  .guide-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+
+  .guide-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Table for Training Guide */
+  .activity-table th, .activity-table td {
+    padding: 12px;
+    text-align: center;
+  }
+/* LinkedIn Button */
+.linkedin-btn {
+  background-color: darkcyan;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.linkedin-btn:hover {
+  background-color: #007b7f;
+}
+
+/* Workout Image Styling */
+.workout-image {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+  .activity-table th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-weight: bold;
+  }
+
+  /* Guide Button Styling */
+  .guide-btn {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .guide-btn:hover {
+    background-color: #0056b3;
+  }
